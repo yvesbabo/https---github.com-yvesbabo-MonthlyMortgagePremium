@@ -30,7 +30,7 @@ public class MainClass {
         principal = price - downpayment;
         premium = (principal * (interest / 12)) / (1 - Math.pow(12 / (12 + interest), term * 12));
         System.out.println(
-                "***** This program calculate the Monthly Mortgage Premium for a Fixed_Rate Mortgage *****");
+                "****** This program calculate the Monthly Mortgage Premium for a Fixed_Rate Mortgage ******");
         System.out.printf("The downpayment is $%.4f\n", downpayment);
         System.out.printf("The bank will finance $%.4f\n", principal);
         System.out.printf("The Monthly Principal & Interest is $%.4f\n", premium);
